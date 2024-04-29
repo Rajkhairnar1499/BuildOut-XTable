@@ -1,0 +1,46 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  text-align: left;
+}
+
+.table-container {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgb(159, 192, 186) 0px 1px 20px 8px;
+}
+
+th {
+  background-color: #19af4d;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 15px;
+  width: 130px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(247, 154, 120, 0.898);
+  box-shadow: rgba(14, 30, 37, 0.863) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.395) 0px 2px 16px 0px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
